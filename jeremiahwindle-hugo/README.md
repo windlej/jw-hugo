@@ -15,8 +15,8 @@ brew install hugo   # macOS
 choco install hugo  # Windows
 
 # Clone and run
-git clone https://github.com/jeremiahwindle/jeremiahwindle.com
-cd jeremiahwindle.com
+git clone https://github.com/windlej/jw-hugo
+cd jeremiahwindle-hugo
 hugo server -D
 # → http://localhost:1313
 ```
