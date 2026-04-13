@@ -1,0 +1,35 @@
+baseURL = "https://jeremiahwindle.pages.dev"
+languageCode = "en-us"
+title = "Jeremiah Windle"
+theme = ""
+
+[params]
+  author = "Jeremiah Windle"
+  description = "Network & Infrastructure Engineer. MSP → Enterprise. Building in public."
+  tagline = "Network · Infrastructure · Security · Automation · Cloud"
+  location = "Spokane, WA"
+  github = "https://github.com/windlej"
+  linkedin = "https://linkedin.com/in/jeremiah-windle"
+  youtubeChannel = "https://youtube.com/@jeremiahwindle"
+  ccnaTarget = "June 2026"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[pagination]
+  pagerSize = 8
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
+    lineNumbersInTable = false
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
