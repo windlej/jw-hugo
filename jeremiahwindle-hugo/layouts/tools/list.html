@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="page-header">
+  <div class="page-header-inner">
+    <div class="section-eyebrow mono">Open Source</div>
+    <h1 class="page-title">Scripts &amp; Tools</h1>
+    <p class="page-intro-text">Automation scripts, network tools, and utilities I've built for MSP and homelab work. All on GitHub.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="tools-grid tools-grid-full">
+      {{ range .Pages }}
+      <a class="tool-card" href="{{ .Permalink }}">
+        <div class="tool-icon mono">{{ .Params.icon | default ">_" }}</div>
+        <h3 class="tool-name">{{ .Title }}</h3>
+        <p class="tool-desc">{{ .Params.description }}</p>
+        <div class="tool-meta">
+          <span class="tool-lang mono">{{ .Params.language | default "Python" }}</span>
+          {{ with .Params.github }}<span class="tool-gh mono">GitHub ↗</span>{{ end }}
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
