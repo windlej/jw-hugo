@@ -1,4 +1,4 @@
-# jeremiahwindle.com — Hugo Site
+# jeremiahwindle.pages.dev — Hugo Site
 
 Personal site built with Hugo, hosted on Cloudflare Pages.
 
