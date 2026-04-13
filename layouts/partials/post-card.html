@@ -7,14 +7,21 @@
       {{ end }}
     {{ end }}
   </div>
+
   <h3 class="post-card-title">
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </h3>
-  <p class="post-card-excerpt">{{ .Summary | plainify | truncate 140 }}</p>
+
+  <p class="post-card-excerpt">
+    {{ .Summary | plainify | truncate 140 }}
+  </p>
+
   <div class="post-card-footer">
     <div class="post-tags">
-      {{ range first 3 .Params.tags }}
-        <span class="tag">{{ . }}</span>
+      {{ with .Params.tags }}
+        {{ range first 3 . }}
+          <span class="tag">{{ . }}</span>
+        {{ end }}
       {{ end }}
     </div>
     <span class="post-read mono">{{ .ReadingTime }} min read</span>
