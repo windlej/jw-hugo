@@ -1,7 +1,6 @@
 baseURL = "https://jeremiahwindle.pages.dev"
 languageCode = "en-us"
 title = "Jeremiah Windle"
-theme = ""
 
 [params]
   author = "Jeremiah Windle"
