@@ -53,5 +53,4 @@ The goal is to test everything on actual hardware before it ends up on this site
 ## Get in Touch
 
 - **LinkedIn:** [linkedin.com/in/jeremiah-windle](https://linkedin.com/in/jeremiah-windle)
-- **GitHub:** [github.com/jeremiahwindle](https://github.com/jeremiahwindle)
-- **Email:** windlejeremiah@gmail.com
+- **GitHub:** [github.com/windlej](https://github.com/windlej)
