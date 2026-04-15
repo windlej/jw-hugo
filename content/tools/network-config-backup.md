@@ -25,7 +25,7 @@ Built initially to run nightly via cron across MSP client sites. Catches config 
 
 ```bash
 pip install netmiko pyyaml
-git clone https://github.com/jeremiahwindle/network-config-backup
+git clone https://github.com/windlej/network-config-backup
 cd network-config-backup
 cp devices.example.yaml devices.yaml
 # Edit devices.yaml with your inventory
