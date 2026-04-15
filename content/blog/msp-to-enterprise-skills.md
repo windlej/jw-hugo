@@ -4,7 +4,7 @@ date: 2026-04-01
 description: "Four years managing infrastructure for 100+ organizations taught me things I couldn't have learned anywhere else. Here's what transfers to enterprise — and what doesn't."
 categories: ["Career"]
 tags: ["msp", "career", "enterprise", "transition"]
-draft: false
+draft: true
 ---
 
 Four years in an MSP seat gives you something that's genuinely hard to get in enterprise IT: breadth under pressure. When you're responsible for network infrastructure across 40 different organizations simultaneously — each with different tools, different configurations, and different stakes — you develop a kind of situational awareness that pure deep-dive engineers often don't have.
