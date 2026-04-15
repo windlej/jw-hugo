@@ -4,7 +4,7 @@ date: 2026-03-18
 description: "Managing security operations across 40+ organizations gave me hands-on time with multiple SIEM platforms. Here's what actually matters when you're the one writing detection rules at 11pm."
 categories: ["Security"]
 tags: ["siem", "kibana", "perch", "splunk", "security", "msp"]
-draft: false
+draft: true
 ---
 
 Most SIEM comparisons are written by vendors or analysts who've seen the demos. This one is written by someone who's used these platforms in production — ingesting real logs, tuning real alerts, and investigating real incidents across dozens of client environments. Here's what actually matters.
