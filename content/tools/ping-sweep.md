@@ -2,7 +2,7 @@
 title: "Ping Sweep"
 description: "Fast subnet ping sweep with logging. Outputs live and dead hosts to a CSV. Built for quick network discovery across MSP client sites."
 icon: "///"
-language: "Python"
+language: "Poweshell" or "Batch" or "Bash"
 github: "https://github.com/jeremiahwindle/ping-sweep"
 tags: ["python", "networking", "discovery"]
 date: 2026-02-01
