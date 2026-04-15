@@ -4,7 +4,7 @@ date: 2026-02-28
 description: "I've built Conditional Access policies for 100+ organizations. Here's the framework I actually use — and the mistakes I've watched organizations make by not having one."
 categories: ["Security", "Cloud"]
 tags: ["entra-id", "conditional-access", "azure", "mfa", "zero-trust", "microsoft"]
-draft: false
+draft: true
 ---
 
 Conditional Access is one of those features where the gap between "we have it enabled" and "we have it configured correctly" is wide enough that attackers drive through it regularly. I've managed CA policies across 100+ organizations at two MSPs. Here's the framework I've landed on.
