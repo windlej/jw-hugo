@@ -3,7 +3,7 @@ title: "Network Config Backup"
 description: "SSH into multiple Cisco devices and pull running configs automatically. Saves timestamped backups to local disk. Built with Netmiko and designed for MSP multi-device environments."
 icon: ">_"
 language: "Python"
-github: "https://github.com/jeremiahwindle/network-config-backup"
+github: "https://github.com/windlej/network-config-backup"
 tags: ["python", "netmiko", "cisco", "automation", "backup"]
 date: 2026-03-01
 ---
