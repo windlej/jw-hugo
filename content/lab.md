@@ -6,9 +6,9 @@ layout: "single"
 
 ## Philosophy
 
-Everything on this site gets tested on real gear before it's published. I don't write about how something *should* work — I write about how it *actually* works, including what breaks and how I fixed it.
+Everything on this site gets tested on real gear before it's published. I don't write about how something *should* work. I write about how it *actually* works, including what breaks and how I fixed it.
 
-The software stack is entirely free and open source. Proxmox VE instead of vSphere (for the cluster), OPNsense instead of commercial firewalls (for software firewall labs), TrueNAS Scale for storage, GNS3 and EVE-NG for network topologies. The physical gear is secondhand enterprise equipment — meaningful horsepower without the new-hardware price.
+The software stack is entirely free and open source. Proxmox VE instead of vSphere (for the cluster), OPNsense instead of commercial firewalls (for software firewall labs), TrueNAS Scale for storage, GNS3 and EVE-NG for network topologies. The physical gear is secondhand enterprise equipment.
 
 ---
 
@@ -16,8 +16,8 @@ The software stack is entirely free and open source. Proxmox VE instead of vSphe
 
 | Device | Specs | Role |
 |---|---|---|
-| Dell PowerEdge R630 | 2× Xeon E5-2680 v4 · 256GB RAM · 4× 10GbE | Primary hypervisor host (vSphere / Proxmox) |
-| HP ProLiant DL380 Gen9 | 2× Xeon E5-2690 v3 · 192GB RAM · 4× 10GbE | Secondary hypervisor host (vSphere / Proxmox) |
+| Dell PowerEdge R630 | 2× Xeon E5-2680 v4 · 256GB RAM · 4× 10GbE | Primary hypervisor host (Proxmox) |
+| HP ProLiant DL380 Gen9 | 2× Xeon E5-2690 v3 · 192GB RAM · 4× 10GbE | Secondary hypervisor host (Proxmox) |
 
 Both servers are connected to a 10GbE switch trunk for vMotion and storage traffic. iDRAC (R630) and iLO (DL380) provide out-of-band management.
 
@@ -56,7 +56,6 @@ All free and open source unless noted.
 | Tool | Purpose |
 |---|---|
 | **Proxmox VE** | Hypervisor cluster (replacing vSphere) · Ceph for shared storage |
-| **VMware vSphere 7** | Current production hypervisor (existing license) |
 | **OPNsense** | Software firewall VM · micro-segmentation labs |
 | **TrueNAS Scale** | NAS · iSCSI shared datastore for Proxmox |
 | **Proxmox Backup Server** | VM backup · incremental forever · deduplication |
@@ -98,5 +97,3 @@ Every blog post and video that involves a lab environment was built and tested i
 - All Netmiko, Ansible, and Python network automation scripts
 - All OPNsense firewall policies
 - All Windows Server and Active Directory procedures
-
-If something on this site doesn't work the way I describe it, that's a bug in my documentation — not a difference between theory and practice. I test everything.
