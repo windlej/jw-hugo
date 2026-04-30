@@ -42,10 +42,10 @@ The goal is to test everything on actual hardware before it ends up on this site
 | Microsoft SC-900 | ✅ Apr 2023 |
 | **Cisco CCNA** | **🔄 In Progress — Target Jun 2026** |
 | Microsoft AZ-104 | Queued |
-| Microsoft SC-200 | Queued |
-| Microsoft AZ-500 | Queued |
 | Microsoft AZ-700 | Queued |
-| Cisco CCNP Enterprise | Queued |
+| Juniper JNCIS-ENT | Queued |
+| Microsoft SC-200  | Queued |
+| Microsoft AZ-500 | Queued |
 | AWS SAA-C03 | Queued |
 | Microsoft AZ-305 | Destination |
 
