@@ -1,10 +1,10 @@
 ---
 title: "My CCNA Study Plan: Resources, Schedule, and How I'm Using Physical Lab Gear"
-date: 2026-01-15
+date: 2026-05-05
 description: "What I'm actually doing to prepare for the CCNA 200-301, combining Jeremy's IT Lab, a physical Cisco 3750G, and GNS3. The honest version, not the highlight reel."
 categories: ["Networking", "Career"]
 tags: ["ccna", "cisco", "study", "homelab", "gns3", "certifications"]
-draft: true
+draft: false
 ---
 
 Target date: June 2026. Here's the actual plan — resources, schedule, lab setup, and where I'm struggling.
